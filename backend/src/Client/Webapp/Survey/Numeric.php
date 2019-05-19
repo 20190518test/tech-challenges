@@ -9,6 +9,8 @@ Class Numeric extends AbstractSurvey implements SurveyInterface
 {
 
     /**
+     *  Aggregate Numeric survey and calculate average total of results
+     *
      *  @param array $data
      *  @return void
      */

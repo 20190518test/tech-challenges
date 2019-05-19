@@ -16,6 +16,8 @@ Class Builder
     protected $data = [];
 
     /**
+     *  Extract Data from Json Files and aggregate into a readable array
+     *
      *  @param array $files
      *  @return array $data
      */

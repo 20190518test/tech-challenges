@@ -19,6 +19,7 @@ Class SurveyFactoryTest extends WebTestCase
 
     /**
      *  @dataProvider surveyFactoryDataProvider
+     *
      *  @param String $surveyType
      *  @param String $surveyClassname
      */

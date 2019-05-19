@@ -9,6 +9,8 @@ Class Qcm extends AbstractSurvey implements SurveyInterface
 {
 
     /**
+     *  Aggregate Qcm survey and calculate sum of all answers
+     *
      *  @param array $data
      *  @return void
      */
