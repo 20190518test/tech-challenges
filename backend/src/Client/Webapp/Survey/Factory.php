@@ -29,29 +29,31 @@ Class Factory
     const DATE = 'date';
 
     /**
+     *  Survey's Factory
+     *
      *  @param array $type
-     *  @return array $data
+     *  @return SurveyInterface $survey
      *  @throws SurveyException
      */
     public static function factory($type): SurveyInterface
     {
         switch ($type) {
             case Factory::QCM:
-                $question = new Qcm();
+                $survey = new Qcm();
                 break;
 
             case Factory::NUMERIC:
-                $question = new Numeric();
+                $survey = new Numeric();
                 break;
 
             case Factory::DATE:
-                $question = new Date();
+                $survey = new Date();
                 break;
 
             default:
                 throw new SurveyException(sprintf('Unknown Survey type: %s', $type));
         }
 
-        return $question;
+        return $survey;
     }
 }

@@ -8,6 +8,8 @@ Class SurveyResult
 {
 
     /**
+     *  Extract all available survey's names
+     *
      *  @param array $data
      *  @return array $output
      */
@@ -26,6 +28,8 @@ Class SurveyResult
     }
 
     /**
+     *  Aggregate Survey results
+     *
      *  @param array $surveyResults
      *  @return array $data
      *  @throws SurveyException
@@ -46,6 +50,8 @@ Class SurveyResult
     }
 
     /**
+     *  Basic Loop to extract survey's data
+     *
      *  @param array $aggregatedData
      *  @return array $output
      */
