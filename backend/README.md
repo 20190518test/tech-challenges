@@ -75,3 +75,14 @@ The aggregation will be different depending on the question type:
 * date: a list of `dates`
 
 The API result is not defined, do what you want, be creative and data centric.
+
+## Results
+
+### All available endpoints are :
+* http://localhost:8080/ => health check
+* http://localhost:8080/read => display all available surveys
+* http://localhost:8080/aggregate/{survey_code} => display survey results by survey code
+
+### Unit Tests
+* vendor/phpunit/phpunit/phpunit tests/Client/Webapp/Tests/
+
