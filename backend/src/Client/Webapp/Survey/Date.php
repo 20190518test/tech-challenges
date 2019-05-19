@@ -9,6 +9,8 @@ Class Date extends AbstractSurvey implements SurveyInterface
 {
 
     /**
+     *  Aggregate Date Survey into a flat list
+     *
      *  @param array $data
      *  @return void
      */
